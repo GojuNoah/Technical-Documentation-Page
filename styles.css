@@ -2,13 +2,29 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #FAF0E6;
+  background-color: #F1EFEC;
   margin: 0;
 }
 .main-section {
   margin: 0;
   padding: 5px;
   letter-spacing: .2;
+}
+#navbar li {
+  color: #030303;
+}
+
+/* fit most phones */
+@media (max-width: 430px) {
+  #navbar ul, #navbar li, #navbar a {
+    display: none; /* hide navbar */
+  }
+  #navbar header {
+    font-size: 1.75em;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+  }
 }
 
 /* for desktop devices */
@@ -74,45 +90,5 @@ body {
     padding: 10px;
     font-weight: 600;
     margin-bottom: 5px;
-  }
-}
-
-/* for mobile devices */
-@media (max-width: 375px) {
-  body {
-    max-width: 375px;
-  }
-  #navbar {
-    padding: 1px;
-  }
-  #navbar ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  #navbar li {
-    flex-grow: 1;
-  }
-  #navbar a {
-    color: #352F44;
-    text-decoration: none;
-    display: block;
-    border: 1px solid black;
-    text-align: center;
-    padding: 8px;
-    font-size: 1.1em;
-    margin: .5px;
-  }
-  #navbar header {
-    font-size: 1.75em;
-    text-align: center;
-    padding: 5px;
-    font-weight: 600;
-  }
-  pre, code {
-  white-space: pre-wrap;
   }
 }
