@@ -19,18 +19,20 @@ body {
 @media (max-width: 430px) {
   #navbar {
     width: 100%;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0;
     margin: 0;
   }
   #navbar li a {
     display: none;
   }
   #navbar header {
-    font-size: 1.75em;
+    font-size: 2.4em;
     font-weight: 600;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
+    width: auto;
+    padding: 10px;
   }
   pre, code {
     white-space: pre-wrap;
