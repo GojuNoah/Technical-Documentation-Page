@@ -11,7 +11,7 @@
 ![Screenshot](screenshot-link.png)
 
 ## 🚀 Live Demo
-[🔗 Click here to view the live project](project-demo-link.com)
+[🔗 Click here to view the live project]([project-demo-link.com](https://rwd-technical-doc.netlify.app/))
 
 ## 🛠️ Installation
 ```bash
