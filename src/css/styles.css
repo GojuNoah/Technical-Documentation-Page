@@ -12,19 +12,29 @@ body {
 }
 #navbar li {
   color: #030303;
+  list-style: none;
 }
 
 /* fit most phones */
 @media (max-width: 430px) {
-  #navbar ul, #navbar li, #navbar a {
-    display: none; /* hide navbar */
+  #navbar {
+    width: 100%;
+    margin: 0;
+  }
+  #navbar li a {
+    display: none;
   }
   #navbar header {
     font-size: 1.75em;
-    text-align: center;
-    padding: 5px;
     font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
   }
+  pre, code {
+    white-space: pre-wrap;
+    }
 }
 
 /* for desktop devices */
