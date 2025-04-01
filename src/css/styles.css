@@ -1,20 +1,19 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: #F1EFEC;
-  margin: 0;
 }
 .main-section {
-  margin: 0;
   padding: 5px;
   letter-spacing: .2;
 }
 #navbar li {
   color: #030303;
-  list-style: none;
 }
-#footer-links li {
+ul, li {
   list-style: none;
 }
 a {
@@ -29,17 +28,12 @@ a {
     text-align: center;
     background: linear-gradient(#D4C9BE 88%, #F1EFEC);
   }
-  #navbar ul {
-    padding: 0;
-    margin: 0;
-  }
   #navbar li a {
     display: none;
   }
   #navbar header {
     font-size: 3rem;
     font-weight: 700;
-    width: auto;
     padding: 20px;
   }
   .main-section {
@@ -91,9 +85,6 @@ a {
   #navbar ul {
     display: flex;
     flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
   }
   #navbar li {
     text-align: center;
@@ -102,7 +93,6 @@ a {
   #navbar a {
     color: #352F44;
     text-decoration: none;
-    display: block;
     border: 1px solid black;
     text-align: left;
     padding: 10px;
