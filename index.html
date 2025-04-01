@@ -31,34 +31,34 @@
       <header>Flexible Images</header>
       <p class="info">One of the principles in Responsive Web Design is having flexible images. This means that when the screen changes size, the image changes as well. Of course the image will already change simply because the screen size is changing, but you don't want it to get too small, stretched, or distorted in any way.</p>
       <p class="indent">One technique to help images scale correctly is shown below.</p>
-      <pre><code>
-      .img {
-        max-width: 100%;
-      }
-      </pre></code>
+    <pre><code>
+    .img {
+      max-width: 100%;
+    }
+    </pre></code>
     </section>
 
     <section class="main-section" id="media_queries">
       <header>Media Queries</header>
       <p class="info">Media queries are slectors for the screen size. You can set the query to be a minimum screen size and over and/or a max screen size and under. These are used for when you need the webpage to be formatted differently when it hits a certain screen size.</p>
       <p class="indent">Here is an example of both min and max size being used, but both are not required:</p>
-      <pre><code>
-      @media (min-size: 500px) and (max-size: 1000px) {
-        .class {
-          color: #ffffff;
-          width: 50%;
-        }
+    <pre><code>
+    @media (min-size: 500px) and (max-size: 1000px) {
+      .class {
+        color: #ffffff;
+        width: 50%;
       }
-      </pre></code>
+    }
+    </pre></code>
     </section>
 
     <section class="main-section" id="viewport_meta_tag">
       <header>Viewport Meta Tag</header>
       <p class="info">The viewport meta tag is a meta element that goes in the header, like any other meta element. Normally, when a webpage that was made for desktop is viewed on a mobile device, the content gets shrunk to fit on the screen, resulting is tiny words and images. With the viewport meta tag, the content's width is adjusted to fit on the screen. </p>
       <p class="indent">The Viewport Meta tag:</p>
-      <pre><code>
-      meta name="viewport" content="width=device-width, initial-scale=1.0"
-      </pre></code>
+  <pre><code>
+  meta name="viewport" content="width=device-width, initial-scale=1.0"
+  </pre></code>
     </section>
 
     <section class="main-section" id="mobile_first_design">
@@ -70,37 +70,36 @@
       <header>Flexbox</header>
         <p class="info">Flexbox is a CSS layout module designed to create flexible and efficient layouts. It’s particularly useful for aligning items in a row or column and distributing space within a container, even when the size of the items is unknown or dynamic.</p>
         <p class="indent">Flex container: </p>
-        <pre><code>
-        /* this will create the flexbox */
-        .container {
-          display: flex; 
-        } 
-        </pre></code>
+    <pre><code>
+    /* this will create the flexbox */
+    .container {
+      display: flex; 
+    } 
+    </pre></code>
         <p class="indent">Now you can either adjust the content horizontally with justify-content: or vertically with align-items:</p> 
-        <pre><code>
-        /* adjust items horizontally */
-        .container {
-          display: flex;
-          justify-content: space-between;
-        }
+    <pre><code>
+    /* adjust items horizontally */
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
 
-        /* adjust items vertically */
-        .container {
-          display: flex;
-          align-items: center;
-        }
-        </pre></code>
+    /* adjust items vertically */
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    </pre></code>
     </section>
-    <section class="main-section" id="conclusion">
-      <header>Conclusion</header>
-        <p class="info">Remember these are just some of the principles in Responsive Web Design:</p>
-        <ul>
-          <li><a href="#flexible_images">Flexible Images</a></li>
-          <li><a href="#media_queries">Media Queries</a></li>
-          <li><a href="#viewport_meta_tag">Viewport Meta Tag</a></li>
-          <li><a href="#mobile_first_design">Mobile First Design</a></li>
-          <li><a href="#flexbox">Flexbox</a></li>
-        </ul>
+    <section class="main-section" id="footer">
+      <header>Jump back in:</header>
+      <ul id="footer-links">
+        <li><a href="#flexible_images">Flexible Images</a></li>
+        <li><a href="#media_queries">Media Queries</a></li>
+        <li><a href="#viewport_meta_tag">Viewport Meta Tag</a></li>
+        <li><a href="#mobile_first_design">Mobile First Design</a></li>
+        <li><a href="#flexbox">Flexbox</a></li>
+      </ul>
     </section>
   </body>
 </html>
