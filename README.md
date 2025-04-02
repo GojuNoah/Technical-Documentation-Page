@@ -3,7 +3,7 @@
 🚀 This website talks about what makes a website responsive, and how to do it.
 
 ## 🔧 Features
-✅ Feature 1  
+✅ Responsive, mobile first, Web Design  
 ✅ Feature 2  
 ✅ Feature 3  
 
