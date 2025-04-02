@@ -14,9 +14,6 @@ html, body {
   width: 100%;
   overflow-x: hidden !important;
 }
-#navbar {
-  max-width: 100%;
-}
 .main-section {
   padding: 1.5%;
   letter-spacing: .045rem;
@@ -45,8 +42,8 @@ code {
   color: #030303; 
 }
 
-/* fit most phones */
-@media (max-width: 600px) {
+/* fit most potrait smartphones */
+@media (min-width: 320px) and (max-width: 480px) {
   #navbar {
     text-align: center;
     background: linear-gradient(#D4C9BE 88%, #F1EFEC);
@@ -75,3 +72,25 @@ code {
     flex-direction: column;
   }
 } 
+
+/* fit most low resolution tablets and landscape smartphones */
+@media (min-width: 481px) and (max-width: 767px) {
+  #navbar {
+    background: linear-gradient(#D4C9BE 88%, #F1EFEC);
+    max-width: 100%;
+    padding: 20px;
+  }
+  #navbar header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  #navbar a {
+    font-weight: 500;
+    border-right: 2px solid #123458;
+    border-left: 2px solid #123458;
+  }
+}
