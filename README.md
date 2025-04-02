@@ -15,7 +15,7 @@
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/NoahStone/repo-name.git
-cd repo-name
+git clone https://github.com/GojuNoah/RWD-Technical-Doc.git
+cd RWD-Technical-Doc
 npm install
 npm start
