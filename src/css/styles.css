@@ -14,9 +14,6 @@ html, body {
   width: 100%;
   overflow-x: hidden !important;
 }
-#navbar {
-  max-width: 100%;
-}
 .main-section {
   padding: 1.5%;
   letter-spacing: .045rem;
@@ -30,6 +27,9 @@ ul, li {
 a {
   text-decoration: none;
   color: #030303;
+}
+p {
+  padding: 0.5%;
 }
 pre {
   white-space: pre-wrap;
@@ -45,13 +45,13 @@ code {
   color: #030303; 
 }
 
-/* fit most phones */
-@media (max-width: 430px) {
+/* fit most potrait smartphones */
+@media (min-width: 320px) and (max-width: 480px) {
   #navbar {
     text-align: center;
-    background: linear-gradient(#D4C9BE 88%, #F1EFEC);
+    background: linear-gradient(#123458 88%, #F1EFEC);
     max-width: 100%;
-    padding: 20px;
+    padding: 25px;
   }
   #navbar li a {
     display: none;
@@ -59,6 +59,10 @@ code {
   #navbar header {
     font-size: 3rem;
     font-weight: 700;
+    color: #F1EFEC;
+  }
+  #introduction {
+    margin-top: 0;
   }
   .main-section {
     font-size: 1.4rem;
@@ -68,10 +72,138 @@ code {
     font-size: 1.75rem;
     font-weight: 600;
     margin-top: 10%;
+    border-bottom: 2px solid #030303;
   }
   #footer-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+  #footer {
+    background-color: #123458;
+    color: #F1EFEC;
+    display: grid;
+    align-items: center;
+  }
+  #footer h2 {
+    grid-column-end: span 3;
+  }
+  #footer a {
+    color: #D4C9BE;
+  }
 } 
+
+/* fit most low resolution tablets and landscape smartphones */
+@media (min-width: 481px) and (max-width: 900px) {
+  #navbar {
+    background: linear-gradient(#123458 85%, #F1EFEC);
+    max-width: 100%;
+    padding: 2%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.75%;
+  }
+  #navbar header {
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 2px solid #030303;
+    color: #D4C9BE;
+  }
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar a {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5%;
+    color: #D4C9BE;
+  }
+  .main-section h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 4%;
+    border-bottom: 2px solid #030303;
+  }
+  #footer {
+    background-color: #123458;
+    color: #F1EFEC;
+    display: grid;
+    align-items: center;
+  }
+  #footer h2 {
+    grid-column-end: span 3;
+  }
+  #footer a {
+    color: #D4C9BE;
+  }
+}
+
+/* tablets / ipads */
+@media (min-width: 901px) and (max-width: 1024px) {
+  #navbar {
+    background: linear-gradient(#123458 85%, #F1EFEC);
+    max-width: 100%;
+    padding: 2%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.75%;
+  }
+  #navbar header {
+    font-size: 3.7rem;
+    font-weight: 700;
+    border-bottom: 2px solid #030303;
+    color: #D4C9BE;
+  }
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar a {
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 5%;
+    color: #D4C9BE;
+  }
+  .main-section h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 4%;
+    border-bottom: 2px solid #030303;
+  }
+  .main-section {
+    font-size: 1.5rem;
+  }
+  #footer {
+    background-color: #123458;
+    color: #F1EFEC;
+    display: grid;
+    align-items: center;
+  }
+  #footer h2 {
+    grid-column-end: span 3;
+  }
+  #footer a {
+    color: #D4C9BE;
+  }
+}
+
+ /* laptops / desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+
+ }
+
+/* desktops */
+@media (min-width: 1281px) {
+
+}
