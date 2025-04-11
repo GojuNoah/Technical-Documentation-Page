@@ -18,8 +18,14 @@ html, body {
   padding: 0.25%;
   letter-spacing: .045rem;
 }
+#navbar header {
+  color: #D4C9BE;
+}
 #navbar li {
   color: #030303;
+}
+#navbar a {
+  color: #D4C9BE;
 }
 ul, li {
   list-style: none;
@@ -59,7 +65,6 @@ code {
   #navbar header {
     font-size: 3rem;
     font-weight: 700;
-    color: #F1EFEC;
   }
   #introduction {
     margin-top: 0;
@@ -111,7 +116,6 @@ code {
     font-size: 3rem;
     font-weight: 700;
     border-bottom: 2px solid #030303;
-    color: #D4C9BE;
   }
   #navbar ul {
     display: flex;
@@ -122,7 +126,6 @@ code {
     font-weight: 500;
     font-size: 1rem;
     padding: 5%;
-    color: #D4C9BE;
   }
   .main-section h2 {
     font-size: 1.75rem;
@@ -201,54 +204,25 @@ code {
  /* laptops / desktops */ /* Work In Progress */
  @media (min-width: 1025px) and (max-width: 1280px) {
   #navbar {
-    background: linear-gradient(#123458 85%, #F1EFEC);
-    max-width: 100%;
-    padding: 2%;
-    height: 30%;
-    text-align: center;
+    background-color: #123458;
+    width: 30%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: fixed;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 1.75%;
+    flex-direction: column;
+    padding: 1%;
+    z-index: 1000;
+    margin-right: 0.5%;
   }
-  #navbar header {
-    font-size: 3.4rem;
-    font-weight: 700;
-    border-bottom: 2px solid #030303;
-    color: #D4C9BE;
-  }
-  #navbar ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #navbar a {
-    font-weight: 500;
-    font-size: 1.4rem;
-    padding: 5%;
-    color: #D4C9BE;
+  main {
+    margin-left: 30%;
   }
   .main-section h2 {
-    font-size: 2rem;
     font-weight: 600;
     margin-top: 4%;
     border-bottom: 2px solid #030303;
-  }
-  .main-section {
-    font-size: 1.2rem;
-  }
-  #footer {
-    background-color: #123458;
-    color: #F1EFEC;
-    display: grid;
-    align-items: center;
-  }
-  #footer h2 {
-    grid-column-end: span 3;
-  }
-  #footer a {
-    color: #D4C9BE;
   }
  }
 
