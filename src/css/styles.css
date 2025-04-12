@@ -238,18 +238,59 @@ code {
   }
   main {
     margin-left: 30%;
+    font-size: larger;
   }
   .main-section h2 {
     font-size: 2rem;
     font-weight: 600;
     border-bottom: 2px solid #030303;
-  }
-  .main-section h2:nth-of-type(n+2) {
-    margin-top: 4%;
+    margin-top: 2.5%;
   }
  }
 
 /* desktops */ /* Work In Progress */
 @media (min-width: 1281px) {
-
+  #navbar {
+    background-color: #123458;
+    width: 20%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    margin-right: 0.5%;
+  }
+  #navbar header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid #030303;
+    color: #D4C9BE;
+    padding: 1%;
+  }
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding: 1%;
+  }
+  #navbar li {
+    margin: 2%;
+  }
+  #navbar a {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 1%;
+  }
+  main {
+    margin-left: 20%;
+    font-size: larger;
+  }
+  .main-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid #030303;
+    margin-top: 2.5%;
+  }
 }
