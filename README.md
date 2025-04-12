@@ -7,10 +7,6 @@
 ✅ Feature 2  
 ✅ Feature 3  
 
-## 📸 Screenshots
-![Screenshot](![image](https://github.com/user-attachments/assets/7326ffd2-c597-4f2e-9552-f0c0673de5a8)
-)
-
 ## 🚀 Live Demo
 [🔗Click here to view the live project](https://rwd-technical-doc.netlify.app/)
 
