@@ -9,7 +9,7 @@
 ✅ 🧩 Modular CSS structure
 
 ## 🚀 Live Demo
-[🔗Click here to view the live project](https://rwd-technical-doc.netlify.app/)
+[🔗Click here to view the live project]( https://technical-documentation-pages.netlify.app/)
 
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/8491dd39-9311-45de-8382-31fa7fc0062b)
