@@ -9,10 +9,3 @@
 
 ## 🚀 Live Demo
 [🔗Click here to view the live project](https://rwd-technical-doc.netlify.app/)
-
-## 🛠️ Installation
-```bash
-git clone https://github.com/GojuNoah/RWD-Technical-Doc.git
-cd RWD-Technical-Doc
-npm install
-npm start
