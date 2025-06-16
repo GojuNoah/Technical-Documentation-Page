@@ -14,9 +14,21 @@ html, body {
   width: 100%;
   overflow-x: hidden !important;
 }
+main {
+  margin: 0 auto;
+  padding: 2%;
+  max-width: 1200px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
 .main-section {
   padding: 0.25%;
   letter-spacing: .045rem;
+  
+}
+#navbar {
+  margin: 0;
+  padding: 1%;
 }
 #navbar header {
   color: #D4C9BE;
