@@ -12,7 +12,7 @@
 [🔗Click here to view the live project]( https://technical-documentation-pages.netlify.app/)
 
 ## Screenshot
-![image](![image](https://github.com/user-attachments/assets/c18a4d22-c240-4f0b-85ae-1ce803719a36))
+![image](https://github.com/user-attachments/assets/41e80e60-0204-4db7-a3ab-904dee26e046)
 
 ## 🛠️ Installation
 1. Clone the repository: git clone https://github.com/your-username/Technical-Documentation-Page.git
